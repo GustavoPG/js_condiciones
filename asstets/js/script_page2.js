@@ -9,7 +9,7 @@ function validate() {
   if (total > 10) {
     message.innerHTML = 'Llevas demasiados stickers';
   } else {
-    message.innerHTML = total;
+    message.innerHTML = 'Llevas ' + total + ' stickers';
   }
 
 }
